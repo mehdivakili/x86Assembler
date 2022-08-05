@@ -1,0 +1,5 @@
+sub [al],bl
+add [ecx],ax
+and esi, [edi]
+or EDI, [EBX]
+end

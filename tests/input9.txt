@@ -1,0 +1,10 @@
+add ax, bx
+L1:
+or ebx, ecx
+jmp L1
+and edi, esi
+jmp L2
+sub ah , bh
+L2:
+stc
+end

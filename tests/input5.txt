@@ -1,0 +1,5 @@
+add ax, [bx]
+sub dx, [di]
+and ecx, [si]
+or si, [al]
+end

@@ -1,0 +1,7 @@
+;this assembler support comments to
+add ax, bx ;also inline comments
+sub esi, edi ;also blank lines
+
+or ch, dh
+and si, di
+end

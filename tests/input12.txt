@@ -1,0 +1,10 @@
+or al, bl
+add eax, ebx
+l1:
+add [al], bl
+l2:
+add eax, ebx
+jmp l2
+add al, bl
+jmp l1
+sub eax, [ecx]

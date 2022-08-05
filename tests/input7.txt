@@ -1,0 +1,7 @@
+jmp -6
+jmp 0fh
+jmp 0fffh
+
+jmp eax
+jmp ax
+end

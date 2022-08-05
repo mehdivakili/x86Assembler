@@ -1,0 +1,10 @@
+test1:
+jmp test2
+test2:
+or al, bh
+add eax, [dh]
+add [al], bl
+add eax, ebx
+jmp test1
+add al, bl
+sub eax, [ecx]

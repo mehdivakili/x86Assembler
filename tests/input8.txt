@@ -1,0 +1,9 @@
+;this assembler support comments to
+
+Label1: ;this is one lable
+add ax, bx ;also inline comments
+sub esi, edi ;also blank lines
+L2  :
+or ch, dh
+and si, di
+end

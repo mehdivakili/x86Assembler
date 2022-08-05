@@ -1,0 +1,25 @@
+add ax, bx
+and ch, dh
+or esi, edi
+inc ax
+stc
+L1:
+add ah, 2
+sub bx, 2
+and cx, 232
+or edx, 232
+and ah, L1
+or ch, L2
+and [bx] , ax
+or [bp] , ch
+sub [si], eax
+and [ebx] , ch
+jmp L1
+jmp L2
+jmp 0fffh
+L2:
+add ah, -2
+sub bx, -2
+and cx, -232
+or edx, -232
+end

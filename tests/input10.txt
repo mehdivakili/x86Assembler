@@ -1,0 +1,7 @@
+and al , L2
+L1:
+or ax, bx
+sub ch, L1
+L2:
+stc
+end

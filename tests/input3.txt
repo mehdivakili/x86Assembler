@@ -1,0 +1,6 @@
+add ax, 2
+sub ecx, 5
+or ch, 6
+and si, 234
+add esi, 234
+end

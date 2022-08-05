@@ -1,0 +1,4 @@
+inc al
+inc ax
+stc
+end
